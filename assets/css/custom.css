@@ -14,8 +14,7 @@
  ============================================================ */
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-bottom:72px;
-   
+    padding-top: 72px;
 }
 .basic-set {
     padding-top:50px;
@@ -70,7 +69,7 @@ border-top: 1px solid #000;
 left: 0;
 width: 100%;
 z-index: 999;
-bottom:0px;
+top: 0px;
 position: fixed;
 background-color: #ffffff;
 -webkit-transition: all 0.3s ease-in-out;
@@ -96,11 +95,15 @@ transition: all 0.3s ease-in-out;
         padding-top:80px;
         font-size:50px;
         font-weight:900;
+        /*padding-bottom:30px;*/
+    }
+    #home-sec h2 {
+        margin-top: 0px;
+        font-size:40px;
+        font-weight:900;
         padding-bottom:30px;
     }
-        #home-sec h1 i {
-            color:#f00;
-        }
+        
 /* =============================================================
    SERVICES SECTION STYLES
  ============================================================ */
@@ -246,3 +249,19 @@ ul#filters {
         font-weight:900;
         color:#f00;
     }
+
+#shop-sec {
+    background-color:#e1e1e1;
+}
+#carousel-example-generic {
+  height: 500px;
+}#carousel-item-1 {
+  height: 500px;
+  background-image: url(../img/item1.jpg);
+  background-position: center center;
+  background-size: cover;
+}#carousel-item-2 {
+  height: 500px;
+  background-image: url(../img/item2.jpg);
+  background-position: center center;
+  background-size: cover;
