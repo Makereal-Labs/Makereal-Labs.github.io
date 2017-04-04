@@ -83,7 +83,7 @@
         mainApp.scroll_fun();
         mainApp.gallery_fun();
         mainApp.vedio_fun();
-        mainApp.nice_scroll_fun();
+        // mainApp.nice_scroll_fun();
         mainApp.custom_fun();
 
     });

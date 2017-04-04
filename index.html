@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon" />
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Bootstap Template With Video Background</title>
+    <title>Makereal Labs 交大創客俱樂部</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- Font-Awesome Icons Styles -->
@@ -19,60 +20,92 @@
     <link href="assets/css/custom.css" rel="stylesheet" />    
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-
 </head>
-<body  >
-    <div id="nav-wrapper" >
-           <div class="navbar navbar-inverse " >
-        <div class="container">
-            <div class="navbar-header ">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+
+<body>
+  <div id="nav-wrapper">
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header ">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
                 
-                <a class="navbar-brand" href="#"><img src="assets/img/vijaya.png" alt="" /></a>
-            </div>
-            <div class="navbar-collapse collapse move-me">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home-sec">Home</a></li>
-                     <li><a href="#services-sec">Services</a></li>
-                    <li><a href="#gallery-sec">Portfolio</a></li>
-                     <li><a href="#price-sec">Pricing</a></li>
-                     <li><a href="#contact-sec">Contact</a></li>
-                </ul>
-            </div>
-           
+          <a class="navbar-brand" href="#"><img src="assets/img/makereal.png" alt="" /></a>
         </div>
+        <div class="navbar-collapse collapse move-me">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home-sec">Home</a></li>
+            <li><a href="#services-sec">Services</a></li>
+            <li><a href="#gallery-sec">Portfolio</a></li>
+            <li><a href="#price-sec">Pricing</a></li>
+            <li><a href="#contact-sec">Contact</a></li>
+          </ul>
+        </div>         
+      </div>
     </div>
+  </div>
+  <!-- NAVBAR SECTION END-->
+  
+  <section id="home-sec" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Ycv5fNd4AeM',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}" >
+    <!-- change https://www.youtube.com/watch?v=Ycv5fNd4AeM to your youtube url-->
+    <div class="overlay"  >
+      <div class="container" >
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h1>交大創客俱樂部</h1>
+            <h2>Makereal Labs</h2>
+            <h4>We make it REAL!</h4>
+          </div>
         </div>
-   <!-- NAVBAR SECTION END-->
-     <section id="home-sec"  class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Ycv5fNd4AeM',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}" >
-         <!-- change https://www.youtube.com/watch?v=Ycv5fNd4AeM to your youtube url-->
-           <div class="overlay"  >
-               <div class="container" >
-                <div class="row text-center">
-                    <div class="col-md-12">
-                      <h1 >VIDEO <i class="fa fa-ioxhost fa-2x" ></i> GROUND </h1> 
-                         <h4  >
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+    </div>
+  </section>
+  <!-- HOME/VEDIO SECTION END-->
 
-                        </h4>
-                        <h4  >
-										Cnsectetur adipiscing elit.
+  <section id="shop-sec">
+    <div class="container basic-set">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
 
-                        </h4>
-                    </div>
-                </div>
-                </div>
-           </div>
-            
-         </section>
-    <!-- HOME/VEDIO SECTION END-->
-       <section id="services-sec"  >
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div id="carousel-item-1" class="item active">
+          <!-- <img class="img-responsive" src="assets/img/item1.jpg" alt="..."> -->
+          <div class="carousel-caption">
+            <h3>熊熊</h3>
+            <p>Yoooo</p>
+          </div>
+        </div>
+        <div id="carousel-item-2" class="item">
+          <!-- <img class="img-responsive" src="assets/img/item2.jpg" alt="..."> -->
+          <div class="carousel-caption">
+            <h3>蜘蛛</h3>
+            <p>Yoooooooo</p>
+          </div>
+        </div>
+      </div>
 
-           
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+  </section>
+
+       <section id="services-sec">
             <div class="container basic-set" >
                 <div class="row text-center">
                     <div class="col-md-12">
